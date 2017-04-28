@@ -1,0 +1,747 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery UI Sortable - Default functionality</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <ul id="sortable">
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Freies Feld, die Stadt in der Ferne.</a>
+
+                <div class="sub-section" hidden>
+                    <p>
+                    	<pre>
+<i>Woyzeck und Andres schneiden Stecken 
+  im Gebüsch. Andres pfeift.</i>
+	
+<b>WOYZECK.</b>Yes, Andres--that stripe there across the grass, 
+  that's where heads roll at night; once somebody picked one up, 
+  he thought it was a hedgehog. Three days and three nights, and 
+  he was lying in a coffin. (Softly.) Andres, it was the 
+  Freemasons, that's it, the Freemasons--shh! 
+<b>ANDRES.</b>(<i>Sings.</i>)
+  I saw two big rabbits
+  Chewing up the green, green grass...
+<b>WOYZECK.</b> Shh! Something's moving!
+<b>ANDRES.</b> Chewing up the green, green grass
+  Till it was all gone.
+<b>WOYZECK.</b> Something's moving behind me, under me. (<i>Stamps on 
+  the ground.</i>) Hollow--you hear that? It's all hollow down there.
+  The Freemasons!
+<b>ANDRES.</b> I'm scared.
+<b>WOYZECK.</b> It's strangely quiet. You feel like holding your breath.
+  Andres!
+<b>ANDRES.</b> What?
+<b>WOYZECK.</b> Say something! (<i>Stares off into the distance.</i>) 
+  Andres!Look how bright it is! There's fire raging around the sky, and 
+  a noise is coming down like trumpets. It's coming closer! Let's go! 
+  Don't look back! (<i>Drags him into the bushes.</i>)
+<b>ANDRES.</b>(<i>After a pause.</i>) Woyzeck! Do you still hear it?
+<b>WOYZECK.</b> Quiet, it's all quiet, like the world was dead. 
+<b>ANDRES.</b> Listen! They're drumming. We've got to get back!
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Marie (mit ihrem Kind am Fenster). Margret. Der Zapfenstreich geht vorbei, der Tambourmajor voran.</a>
+
+                <div class="sub-section" hidden>
+                              <p>
+                    	<pre>	
+<b>MARIE.</b><i>(das Kind wippend auf dem Arm)</i>He, Bub! Sa ra ra ra! Hörst? Da kommen Sie!
+<b>MARGRET.</b>Was ein Mann, wie ein Baum!
+<b>MARIE.</b> Er steht auf seinen Füßen wie ein Löw.
+  <i>Tambourmajor grüßt.</i>
+<b>MARGRET.</b> Ei, was freundliche Auge, Frau Nachbarin! So was is man an ihr nit gewöhnt.
+<b>MARIE.</b> <i>(singt)</i>Soldaten, das sind schöne Bursch …
+<b>MARGRET.</b>Ihre Auge glänze ja noch -
+<b>MARIE.</b> Und wenn! Trag Sie Ihr Aug zum Jud, und laß Sie sie putze; vielleicht glänze 
+  sie noch, daß man sie für zwei Knöpfe verkaufen könnt.
+<b>MARGRET.</b>Was, Sie? Sie? Frau Jungfer! Ich bin eine honette Person, aber Sie, es weiß 
+  jeder, Sie guckt sieben Paar lederne Hose durch!
+<b>MARIE.</b>Luder! - (<i>(Schlägt das Fenster durch.)</i>- Komm, mei Bub! Was die
+  Leute wolle. Bist doch nur ein arm Hurenkind und machst deiner Mutter
+  Freud mit deim unehrlichen Gesicht! Sa! sa! - <i>(singt)</i>
+        Mädel, was fangst Du jetzt an?
+        Hast ein klein Kind und kein' Mann!
+        Ei, was frag' ich danach?
+        Sing' ich die ganze Nacht
+        heio, popeio, mei Bu, juchhe!
+        Gibt mir kein Mensch nix dazu.
+  <i>(Es klopft am Fenster.)</i>
+<b>MARIE.</b> Wer da? Bist du's, Franz? Komm herein! 
+<b>WOYZECK.</b> Kann nit. Muß zum Verles'.
+<b>MARIE.</b> Hast du Stecken geschnitten für den Hauptmann?
+<b>WOYZECK.</b> Ja, Marie.
+<b>MARIE.</b> Was hast du, Franz? Du siehst so verstört.
+<b>WOYZECK.</b> <i>(geheimnisvoll)</i>Marie, es war wieder was, viel - steht nicht geschrieben: 
+  Und sie, da ging ein Rauch vom Land, wie der Rauch vom Ofen?
+<b>MARIE.</b> Mann!
+<b>WOYZECK.</b> Es ist hinter mir hergangen bis vor die Stadt. Etwas, was wir nicht fassen, 
+  begreifen, was uns von Sinnen bringt. Was soll das werden?
+<b>MARIE.</b> Franz!
+<b>WOYZECK.</b> Ich muß fort. - Heut abend auf die Meß! Ich hab wieder gespart. - <i>(Er geht.)</i>
+<b>MARIE.</b> Der Mann! So vergeistert. Er hat sein Kind nicht angesehn!
+  Er schnappt noch über mit den Gedanken! - Was bist so still, Bub?
+  Furchtest dich? Es wird so dunkel; man meint, man wär' blind. Sonst
+  scheint als die Latern herein. Ich halt's nit aus; es schauert mich! -
+  <i>(Geht ab.)</i>
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section block END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Buden. Lichter. Volk.</a>
+
+                <div class="sub-section" hidden>
+                              <p>
+                    	<pre>
+	
+<b>ALTER MANN</b><i>(singt und Kind tanzt zum Leierkasten).</i> 
+        Auf der Welt ist kein Bestand,
+        Wir müssen alle sterben,
+        das ist uns wohlbekannt.
+<b>WOYZECK.</b>Hei, Hopsa's! - Armer Mann, alter Mann! Armes Kind, junges
+Kind! Sorgen und Feste!
+<b>MARIE.</b> Mensch, sind noch die Narrn von Verstande, dann ist man selbst ein Narr. - Komische Welt! 
+Schöne Welt!
+	<i>(Beide gehn weiter zum Marktschreier).</i>
+<b>MARKTSCHREIER.</b> <i>(vor seiner Bude mit seiner Frau in Hosen und einem kostümierten Affen)</i> 
+Meine Herren, meine Herren! Sehn Sie die Kreatur, wie sie Gott gemacht: nix, gar nix. Sehn Sie jetzt 
+die Kunst: geht aufrecht, hat Rock und Hosen, hat ein' Säbel! Der Aff ist  Soldat; s' ist noch nicht 
+viel, unterste Stuf von menschliche Geschlecht. Ho! Mach Kompliment! So - bist Baron. Gib Kuß! - 
+[Er trompetet:] Wicht ist musikalisch. - Meine Herren, hier ist zu sehen das astronomische Pferd und 
+die kleine Kanaillevögele. Sind Favorit von alle gekrönte Häupter Europas, verkündigen den Leuten alles: 
+wie alt, wieviel Kinder, was für Krankheit. Die Repräsentationen anfangen! Es wird sogleich sein 
+Commencement von Commencement.
+<b>WOYZECK.</b> Willst du?
+<b>MARIE.</b> Meinetwegen. Das muß schön Ding sein. Was der Mensch Quasten hat! Und die Frau Hosen!
+<i>(Beide gehn in die Bude).</i>
+<b>TAMBOURMAJOR.</b> Halt, jetzt! Siehst du sie! Was ein Weibsbild!
+<b>UNTEROFFIZIER.</b> Teufel! Zum Fortpflanzen von Kürassierregimentern!
+<b>TAMBOURMAJOR.</b> Und zur Zucht von Tambourmajors!
+<b>UNTEROFFIZIER.</b>Wie sie den Kopf trägt! Man meint, das schwarze Haar müßt' sie abwärts ziehn wie 
+ein Gewicht. Und Augen -
+<b>TAMBOURMAJOR.</b> Als ob man in ein' Ziehbrunnen oder zu einem Schornstein hinunter guckt. 
+Fort, hintendrein! -
+
+Das Innere der hellerleuchteten Bude
+
+<b>MARIE.</b> Was Licht!
+<b>WOYZECK.</b> Ja, Marie, schwarze Katzen mit feurigen Augen. Hei, was ein Abend!
+<b>DER BUDENBESITZE.</b> <i>(ein Pferd vorführend)</i>. Zeig dein Talent! Zeig deine viehische 
+Vernünftigkeit! Beschäme die menschliche Sozietät! Meine Herren, dies Tier, was Sie da sehn, Schwanz 
+am Leib, auf seine vier Hufe, ist Mitglied von alle gelehrt Sozietät, ist Professor an unsre Universität, 
+wo die Studente bei ihm reiten und schlagen lernen. - Das war einfacher Verstand. Denk jetzt mit der 
+doppelten Raison! Was machst du, wann du mit der doppelten Raison denkst? Ist unter der gelehrten Société 
+da ein Esel? - <i>(Der Gaul schüttelt den Kopf.)</i> - Sehn Sie jetzt die doppelte Raison? Das ist Viehsionomik. 
+Ja, das ist kein viehdummes Individuum, das ist ein Person, ein Mensch, ein tierischer Mensch - und doch ein Vieh, 
+ein Bête. - <i>(Das Pferd führt sich ungebührlich auf.)</i> - So, beschäme die Société. Sehn Sie, das Vieh ist 
+noch Natur, unideale Natur! Lernen Sie bei ihm! Fragen Sie den Arzt, es ist sonst höchst schädlich! Das hat 
+geheißen: Mensch, sei natürlich! Du bist geschaffen aus Staub, Sand, Dreck. Willst du mehr sein als Staub, Sand, 
+Dreck? - Sehn Sie, was Vernunft: es kann rechnen und kann doch nit an den Fingern herzählen. Warum? Kann sich 
+nur nit ausdrücken, nur nit explizieren, ist ein verwandelter Mensch. Sag den Herren, wieviel Uhr ist es! 
+Wer von den Herren und Damen hat ein Uhr? ein Uhr?
+<b>UNTEROFFIZIER.</b> Eine Uhr?<i>(zieht großartig und gemessen eine Uhr aus der Tasche)</i>Da, mein Herr!
+<b>MARIE.</b> Das muß ich sehn. - <i>(Sie klettert auf den ersten Platz; Unteroffizier hilft ihr.)</i> 
+<b>TAMBOURMAJOR.</b> Das ist ein Weibsbild. 
+
+
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Marie sitzt, ihr Kind auf dem Schoß, ein Stückchen Spiegel in der Hand.</a>
+
+                <div class="sub-section" hidden>
+                     <p>
+                    	<pre>
+	
+<b>MARIE.</b><i>(sitzt, ihr Kind auf dem Schoß, ein Stückchen Spiegel in der Hand)</i> Der andre hat 
+ihm befohlen, und er hat gehen müssen! - <i>[Bespiegelt sich:] </i>Was die Steine glänzen! Was sind's für? 
+Was hat er gesagt? - - Schlaf, Bub! Drück die Augen zu, fest! - <i>[Das Kind versteckt die Augen hinter den Händen.]</i> - Noch fester! Bleib so - still, oder er holt dich! - <i>[Singt:]</i> Mädel, mach's Ladel zu 's kommt e Zigeunerbu, führt dich an deiner Hand fort ins Zigeunerland. <i>[Spiegelt sich wieder.]</i> - 's ist gewiß Gold! Wie wird mir's beim Tanzen stehen? Unsereins hat nur ein Eckchen in der Welt und ein Stück Spiegel, und doch hab ich ein' so roten Mund als die großen Madamen mit ihrem Spiegeln von oben bis unten und ihren schönen Herrn, die ihnen die Händ küssen. Ich bin nur ein arm Weibsbild! - <i>[Das Kind richtet sich auf.]</i> - Still, Bub, die Augen zu! Das Schlafengelchen! Wie's an der Wand läuft. - <i>[Sie blinkt ihm mit dem Glas:]</i> Die Auge zu, oder es sieht dir hinein, daß du blind wirst!
+<i>[Woyzeck tritt herein, hinter sie. Sie fährt auf, mit den Händen nach den Ohren.]</i>
+
+<b>WOYZECK.</b> Was hast du?
+<b>MARIE.</b> Nix. 
+<b>WOYZECK.</b> Unter deinen Fingern glänzt's ja. 
+<b>MARIE.</b> Ein Ohrringlein; hab's gefunden.
+<b>WOYZECK.</b> Ich hab' so noch nix gefunden, zwei auf einmal!
+<b>MARIE.</b> Bin ich ein Mensch?
+<b>WOYZECK.</b> 's ist gut, Marie. - Was der Bub schläft! Greif ihm unters
+Ärmchen, der Stuhl drückt ihn. Die hellen Tropfen stehn ihm auf der
+Stirn; alles Arbeit unter der Sonn, sogar Schweiß im Schlaf. Wir
+arme Leut! - Da ist wieder Geld, Marie; die Löhnung und was von meim
+Hauptmann.
+<b>MARIE.</b>Gott vergelt's, Franz.
+<b>WOYZECK.</b> Ich muß fort. Heut abend, Marie! Adies!
+<b>ANDRES.</b> <i>[allein, nach einer Pause]</i> Ich bin doch ein schlechter Mensch!
+Ich könnt' mich erstechen. - Ach, was Welt! Geht doch alle zum Teufel,
+Mann und Weib!
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section block END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Der Hauptmann. Woyzeck. Hauptmann auf einem Stuhl, Woyzeck rasiert ihn.</a>
+
+                <div class="sub-section" hidden>
+                           <p>
+                    	<pre>
+<b>HAUPTMANN.</b>Langsam, Woyzeck, langsam; eins nach dem andern! Er macht mir ganz schwindlig. Was soll ich dann mit den 10 Minuten anfangen, die Er heut zu früh fertig wird? Woyzeck, bedenk Er, Er hat noch seine schönen dreißig Jahr zu leben, dreißig Jahr! Macht dreihundertsechzig Monate! und Tage! Stunden! Minuten! Was will Er denn mit der ungeheuren Zeit all anfangen? Teil Er sich ein, Woyzeck!
+	
+<b>WOYZECK.</b>Jawohl, Herr Hauptmann.
+<b>HAUPTMANN.</b>Es wird mir ganz angst um die Welt, wenn ich an die Ewigkeit denke. Beschäftigung, Woyzeck, Beschäftigung! Ewig: das ist ewig, das ist ewig - das siehst du ein; nur ist es aber wieder nicht ewig, und das ist ein Augenblick, ja ein Augenblick - Woyzeck, es schaudert mich, wenn ich denke, daß sich die Welt in einem Tag herumdreht. Was 'n Zeitverschwendung! Wo soll das hinaus? Woyzeck, ich kann kein Mühlrad mehr sehen, oder ich werd melancholisch.
+<b>WOYZECK.</b> Jawohl, Herr Hauptmann.
+<b>HAUPTMANN.</b> Woyzeck, Er sieht immer so verhetzt aus! Ein guter Mensch tut das nicht, ein guter Mensch, der sein gutes Gewissen hat. - Red er doch was Woyzeck! Was ist heut für Wetter?
+<b>WOYZECK.</b> Schlimm, Herr Hauptmann, schlimm: Wind!
+<b>HAUPTMANN.</b> Ich spür's schon. 's ist so was Geschwindes draußen: so ein Wind macht mir den Effekt wie eine Maus. - <i>[Pfiffig:]</i> Ich glaub', wir haben so was aus Süd-Nord?
+<b>WOYZECK.</b> Jawohl, Herr Hauptmann.
+<b>HAUPTMANN.</b> Ha, ha ha! Süd-Nord! Ha, ha, ha! Oh, Er ist dumm, ganz abscheulich dumm! - <i>[Gerührt:] </i>Woyzeck, Er ist ein guter Mensch —aber— <i>[Mit Würde:]</i> Woyzeck, Er hat keine Moral! Moral, das ist, wenn man moralisch ist, versteht Er. Es ist ein gutes Wort. Er hat ein Kind ohne den Segen der Kirche, wie unser hocherwürdiger Herr Garnisionsprediger sagt - ohne den Segen der Kirche, es ist nicht von mir.
+<b>WOYZECK.</b> Herr Hauptmann, der liebe Gott wird den armen Wurm nicht drum ansehen, ob das Amen drüber gesagt ist, eh er gemacht wurde. Der Herr sprach: Lasset die Kleinen zu mir kommen.
+<b>HAUPTMANN.</b>Was sagt Er da? Was ist das für eine kuriose Antwort? Er macht mich ganz konfus mit seiner Antwort. Wenn ich sag': Er, so mein' ich Ihn, Ihn -
+<b>WOYZECK.</b> Wir arme Leut - Sehn Sie, Herr Hauptmann: Geld, Geld! Wer kein Geld hat - Da setz einmal eines seinesgleichen auf die Moral in der Welt! Man hat auch sein Fleisch und Blut. Unsereins ist doch einmal unselig in der und der andern Welt. Ich glaub', wenn wir in Himmel kämen, so müßten wir donnern helfen.
+<b>HAUTPMANN.</b> Woyzeck, Er hat keine Tugend! Er ist kein tugendhafter Mensch! Fleisch und Blut? Wenn ich am Fenster lieg', wenn's geregnet hat, und den weißen Strümpfen nachseh', wie sie über die Gassen springen - verdammt, Woyzeck, da kommt mir die Liebe! Ich hab' auch Fleisch und Blut. Aber, Woyzeck, die Tugend! Die Tugend! Wie sollte ich dann die Zeit rumbringen? Ich sag' mir immer: du bist ein tugendhafter Mensch - <i>[gerührt:]</i>-, ein guter Mensch, ein guter Mensch.
+<b>WOYZECK.</b>Ja, Herr Hauptmann, die Tugend - ich hab's noch nit so aus. Sehn Sie: wir gemeine Leut, das hat keine Tugend, es kommt nur so die Natur; aber wenn ich ein Herr wär und hätt' ein' Hut und eine Uhr und eine Anglaise und könnt' vornehm rede, ich wollt' schon tugendhaft sein. Es muß was Schönes sein um die Tugend, Herr Hauptmann. Aber ich bin ein armer Kerl!
+<b>HAUPTMANN.</b>Gut, Woyzeck. Du bist ein guter Mensch, ein guter Mensch.
+Aber du denkst zuviel, das zehrt; du siehst immer so verhetzt aus. -
+Der Diskurs hat mich ganz angegriffen. Geh jetzt, und renn nicht so;
+langsam, hübsch langsam die Straße hinunter!
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Marie. Tambourmajor.</a>
+
+                <div class="sub-section" hidden>
+                                <p>
+                    	<pre>
+	
+<b>TAMBOURMAJOR.</b>Marie!
+<b>MARIE</b><i>(ihn ansehend, mit Ausdruck).</i>)Geh einmal vor dich hin! Über die Brust wie ein Rind und ein Bart wie ein Löw. So ist keiner! - Ich bin stolz vor allen Weibern!
+<b>TAMBOURMAJOR..</b> Wenn ich am Sonntag erst den großen Federbusch hab' und die weiße Handschuh, Donnerwetter! Der Prinz sagt immer: Mensch, Er ist ein Kerl.
+<b>MARIE.</b> <i>[spöttisch]</i>: Ach was! - <i>[Tritt vor ihn hin:]</i> Mann!
+<b>TAMBOURMAJOR..</b> Und du bist auch ein Weibsbild! Sapperment, wir wollen eine Zucht Tambourmajors anlegen. He? - <i>[Er umfaßt sie.]</i>
+<b>MARIE.</b> <i>[verstimmt]:</i> Laß mich!
+<b>TAMBOURMAJOR..</b> Wild Tier!
+<b>MARIE.</b> <i>[heftig]: </i>Rühr mich an!
+<b>TAMBOURMAJOR.</b>Sieht dir der Teufel aus den Augen?
+<b>MARIE.</b>Meinetwegen! Es ist alles eins!
+
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section block END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Marie. Woyzeck</a>
+
+                <div class="sub-section" hidden>
+              <p>
+                    	<pre>
+	
+<b>WOYZECK.</b><i>[sieht sie starr an und schüttelt den Kopf]:</i> Hm! Ich seh' nichts, ich seh nichts. O man müßt's sehen, man müßt's greifen könne mit Fäusten!
+<b>MARIE.</b><i>[verschüchtert]: </i>Was hast du, Franz? - Du bist hirnwütig, Franz.
+<b>WOYZECK.</b> Eine Sünde, so dick und so breit - es stinkt, daß man die
+Engelchen zum Himmel hinausräuchern könnt'! Du hast ein' roten Mund,
+Marie. Keine Blase drauf? Wie, Marie, du bist schön wie die Sünde -
+kann die Totsünde so schön sein?
+<b>MARIE.</b> Franz, du redest im Fieber!
+<b>WOYZECK.</b> Teufel! - Hat er da gestanden? So? So?
+<b>MARIE.</b> Dieweil der Tag lang und die Welt alt is, können viele Menschen an einem Platz stehen, einer nach dem andern.
+<b>WOYZECK.</b> Ich hab ihn gesehn!
+<b>MARIE.</b> Man kann viel sehn, wenn man zwei Auge hat und nicht blind is und die Sonn scheint.
+<b>WOYZECK.</b> Mensch! - <i>[Geht auf sie los.]</i>
+<b>MARIE.</b>Rühr mich an, Franz! Ich hätt' lieber ein Messer in den Leib als deine Hand auf meiner. Mein Vater hat mich nit anzugreifen gewagt, wie ich zehn Jahre alt war, wenn ich ihn ansah.
+<b>WOYZECK.</b> Weib! - Nein, es müßte was an dir sein! Jeder Mensch ist ein Abgrund; es schwindelt einem, wenn man hinabsieht. - Es wäre! Sie geht wie die Unschuld. Nun, Unschuld, du hast ein Zeichen an dir. Weiß ich's? Weiß ich's? Wer weiß es? - <i>[Er geht.]</i>
+
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Woyzeck. Der Doktor.</a>
+
+                <div class="sub-section" hidden>
+                                  <p>
+                    	<pre>
+
+<b>DOKTOR.</b>Was erleb' ich, Woyzeck? Ein Mann von Wort!
+  	
+<b>WOYZECK.</b>Was denn, Herr Doktor?
+<b>DOKTOR.</b>Ich hab's gesehn, Woyzeck; er hat auf die Straß gepißt, an die Wand gepißt, wie ein Hund. - Und doch drei Groschen täglich und die Kost! Woyzeck, das ist schlecht; die Welt wird schlecht, sehr schlecht!
+<b>WOYZECK.</b> Aber, Herr Doktor, wenn einem die Natur kommt.
+<b>DOKTOR.</b> Die Natur kommt, die Natur kommt! Die Natur! Hab' ich nicht nachgewiesen, daß der Musculus constrictor vesicae dem Willen unterworfen ist? Die Natur! Woyzeck, der Mensch ist frei, in dem Menschen verklärt sich die Individualität zur Freiheit. - Den Harn nicht halten können! - <i>[Schüttelt den Kopf, legt die Hände auf den Rücken und geht auf und ab.]</i> - Hat Er schon seine Erbsen gegessen, Woyzeck? Nichts als Erbsen, cruciferae, merk Er sich's! Es gibt eine Revolution in der Wissenschaft, ich sprenge sie in die Luft. Harnstoff 0,10, salzsaures Ammonium, Hyperoxydul - Woyzeck, muß Er nicht wieder pissen? Geh Er einmal hinein und probier Er's!
+<b>WOYZECK.</b> Ich kann nit, Herr Doktor.
+<b>DOKTOR.</b> <i>[mit Affekt]:</i> Aber an die Wand pissen! Ich hab's schriftlich, den Akkord in der Hand! - Ich hab's gesehen, mit diesen Augen gesehen; ich steckt' grade die Nase zum Fenster hinaus und ließ die Sonnenstrahlen hineinfallen, um das Niesen zu beobachten. - <i>[Tritt auf ihn los:]</i> Nein, Woyzeck, ich ärgre mich nicht; Ärger ist ungesund, ist unwissenschaftlich. Ich bin ruhig, ganz ruhig; mein Puls hat seine gewöhnlichen sechzig, und ich sag's Ihm mit der größten Kaltblütigkeit. Behüte, wer wird sich über einen Menschen ärgern, ein' Mensch! Wenn es noch ein Proteus wäre, der einem krepiert! Aber, Woyzeck, Er hätte nicht an die Wand pissen sollen -
+<b>WOYZECK.</b> Sehn Sie, Herr Doktor, manchmal hat einer so 'en Charakter, so 'ne Struktur. - Aber mit der Natur ist's was anders, sehn Sie; mit der Natur - <i>[er kracht mit den Fingern]</i> -, das is so was, wie soll ich sagen, zum Beispiel …
+<b>DOKTOR.</b> Woyzeck, Er philosophiert wieder.
+<b>WOYZECK.</b>  <i>[vertraulich]:</i> Herr Doktor, haben Sie schon was von der doppelten Natur gesehn? Wenn die Sonn in Mattag steht und es ist, als ging' die Welt in Feuer auf, hat schon eine fürchterliche Stimme zu mir geredt!
+<b>DOKTOR.</b>Woyzeck, Er hat eine Aberratio.
+<b>WOYZECK.</b> Jawohl.
+<b>DOKTOR.</b> Ißt seine Erbsen?
+<b>WOYZECK.</b> Immer ordentlich, Herr Doktor. Das Geld für die Menage kriegt meine Frau.
+<b>DOKTOR.</b> Tut seinen Dienst?
+<b>WOYZECK.</b> Jawohl.
+<b>DOKTOR.</b>  Er ist ein interessanter Kasus. Subjekt Woyzeck, Er kriegt
+Zulage, halt Er sich brav. Zeig Er seinen Puls. Ja.
+
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section block END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Hauptmann. Doktor.</a>
+
+                <div class="sub-section" hidden>
+                            <p>
+                    	<pre>	
+<b>HAUPTMANN.</b>Herr Doktor, rennen Sie nicht so! Rudern Sie mir Ihrem
+Stock nicht so in der Luft! Sie hetzen sich ja hinter dem Tod drein.
+Ein guter Mensch, der sein gutes Gewissen hat, geht nicht so schnell.
+Ein guter Mensch - <i>[Er erwischt den Doktor am Rock:]</i> Herr Doktor,
+erlauben Sie, daß ich ein Menschenleben rette!
+<b>DOKTOR.</b>Pressiert, hh, pressiert!
+<b>HAUPTMANN.</b> Herr Doktor, ich bin so schwermütig, ich habe so was
+Schwärmerisches; ich muß immer weinen, wenn ich meinen Rock an der
+Wand hängen sehen -.
+<b>DOKTOR.</b> Hm! Aufgedunsen, fett, dicker Hals: apoplektische Konstitution. Ja, Herr Hauptmann, Sie können eine Apoplexia cerebri kriegen; Sie können sie aber vielleicht auch nur auf der einen Seite bekommen und auf der einen gelähmt sein, oder aber Sie können im besten Fall geistig gelähmt werden und nur fort vegetieren: das sind so ohgefähr Ihre Aussichten auf die nächsten vier Wochen! Übrigens kann ich Sie versichern, daß Sie einen von den interessanten Fällen abgeben, und wenn Gott will, daß Ihre Zunge zum Teil gelähmt wird, so machen wir unsterbliche Experimente.
+<b>HAUPTMANN.</b> Herr Doktor, erschrecken Sie mich nicht! Es sind schon Leute am Schreck gestorben, am bloßen hellen Schreck. - Ich sehe schon die Leute mit den Zitronen in den Händen; aber sie werden sagen, er war ein guter Mensch, ein guter Mensch - Teufel Sargnagel!
+<b>DOKTOR.</b> [hält ihm den Hut hin]: Was ist das, hh? - Das ist ein
+Hohlkopf, geehrtester Herr Exerzierzagel!
+<b>HAUPTMANN.</b> <i>[macht eine Falte]:</i> Was ist das, Herr Doktor? - Das ist Einfalt, bester Herr Sargnagel! Hähähä! Aber nichts für ungut! Ich bin ein guter Mensch, aber ich kann auch, wenn ich will, Herr Doktor, hähähä, wenn ich will … - <i>[Woyzeck kommt und will vorbeieilen]</i> - He, Woyzeck, was hetzt Er sich so an uns vorbei. Bleib er doch, Woyzeck! Er läuft ja wie ein offnes Rasiermesser durch die Welt, man schneidt sich an Ihm; Er läuft, als hätt er ein Regiment Kastrierte zu rasieren und würde gehenkt über dem längsten Haar noch vor dem Verschwinden. Aber, über die langen Bärte - was wollt' ich doch sagen? Woyzeck: die langen Bärte …
+<b>DOKTOR.</b> Ein langer Bart unter dem Kinn, schon Plinius spricht davon, man müßt es den Soldaten abgewöhnen …
+<b>HAUPTMANN.</b> <i>[fährt fort]:</i> Ha, über die langen Bärte! Wie is, Woyzeck,
+hat Er noch nicht ein Haar aus einem Bart in seiner Schüssel gefunden?
+He, Er versteht mich doch? Ein Haar eines Menschen, vom Bart eines
+Sapeurs, eines Unteroffiziers, eines - eines Tambourmajors? He,
+Woyzeck? Aber Er hat eine brave Frau. Geht Ihm nicht wie andern.
+<b>WOYZECK.</b>Jawohl! Was wollen Sie sagen, Herr Hauptmann?
+<b>HAUPTMANN.</b> Was der Kerl ein Gesicht macht! … Vielleicht nun auch nicht in der Suppe, aber wenn Er sich eilt und um die Eck geht, so kann er vielleicht noch auf ein Paar Lippen eins finden. Ein Paar Lippen, Woyzeck. Kerl, Er ist ja kreideweiß!
+<b>WOYZECK.</b> hh, ich bin ein armer Teufel - und hab's sonst nichts auf der
+Welt. hh, wenn Sie Spaß machen -
+<b>HAUPTMANN.</b> Spaß ich? Daß dich Spaß, Kerl!
+<b>DOKTOR.</b> Den Puls, Woyzeck, den Puls! - Klein, hart, hüpfend, unregelmäßig.
+<b>WOYZECK.</b> hh, die Erd is höllenheiß - mir eiskalt, eiskalt - Die Hölle is kalt, wollen wir wetten. - - Unmöglich! Mensch! Mensch! Unmöglich!
+<b>HAUPTMANN.</b> Kerl, will Er - will Er ein paar Kugeln vor den Kopf haben?
+Er ersticht mich mit seinen Augen, und ich mein' es gut mit Ihm, weil
+Er ein guter Mensch ist, Woyzeck, ein guter Mensch.
+<b>DOKTOR.</b> Gesichtsmuskeln starr, gespannt, zuweilen hüpfend. Haltung aufgeregt, gespannt.
+<b>WOYZECK.</b> Ich geh'. Es is viel möglich. Der Mensch! Es is viel möglich. - Wir haben schön Wetter, hh. Sehn Sie, so ein schöner, fester, grauer Himmel; man könnte Lust bekommen, ein' Kloben hineinzuschlagen und sich daran zu hängen, nur wegen des Gedankenstriches zwischen Ja und wieder Ja - und Nein. hh, Ja und Nein? Ist das Nein am Ja oder das Ja am Nein schuld? Ich will darüber nachdenken. - <i>[Geht mit breiten Schritten ab, erst langsamer, dann immer schneller.]</i>
+<b>HAUPTMANN.</b> Mir wird ganz schwindlig vor den Menschen. Wie schnell!
+Der lange Schlingel greift aus, als läuft der Schatten von einem
+Spinnbein, und der Kurze, das zuckelt. Der Lange ist der Blitz und der
+Kleine der Donner. Haha … Grotesk! grotesk!
+
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Die Wachstube. Woyzeck. Andres.</a>
+
+                <div class="sub-section" hidden>
+                                <p>
+                    	<pre>
+
+	
+<b>ANDRES.</b>(<i>singt.</i>)
+		Frau Wirtin hat ne brave Magd,
+        sie sitzt im Garten Tag und Nacht,
+        sie sitzt in ihrem Garten …
+<b>WOYZECK.</b> Andres!
+<b>ANDRES.</b> Nu?
+<b>WOYZECK.</b> Schön Wetter.
+<b>ANDRES.</b> Sonntagswetter - Musik vor der Stadt. Vorhin - sind die
+Weibsbilder hinaus; die Mensche dampfe, das geht!
+<b>WOYZECK.</b> <i>[unruhig]</i>: Tanz, Andres, sie tanze!
+<b>ANDRES.</b> Im Rössel und in Sternen.
+<b>WOYZECK.</b> Tanz, Tanz!
+<b>ANDRES.</b> Meinetwege. Sitzt in ihrem Garten, bis dass das Glöcklein zwölfe schlägt, und paßt auf die Solda-aten.
+<b>WOYZECK.</b> Andres, ich hab' kei Ruh.
+<b>ANDRES.</b> Narr!
+<b>WOYZECK.</b> Ich muß hinaus. Es dreht sich mir vor den Augen. Tanz, Tanz!
+Wird sie heiße Händ habe! Verdammt, Andres!
+<b>ANDRES.</b> Was willst du?
+<b>WOYZECK.</b> Ich muß fort, muß sehen.
+<b>ANDRES.</b> Du Unfried! Wegen dem Mensch?
+<b>WOYZECK.</b> Ich muß hinaus, 's is so heiß dahie.
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section block END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Wirtshaus.Die Fenster offen, Tanz. Bänke vor dem Haus. Bursche.</a>
+
+                <div class="sub-section" hidden>
+              <p>
+                    	<pre>	
+<b>ERSTER HANDSWERKSBURSCH.</b>
+        Ich hab' ein Hemdlein an, das ist nicht mein;
+        meine Seele stinkt nach Branndewein -
+<b>ZWEITER HANDSWERKSBURSCH.</b> Bruder, soll ich dir aus Freundschaft ein
+Loch in die Natur machen? Vorwärts! Ich will ein Loch in die Natur
+maehen! Ich bin auch ein Kerl, du weißt - ich will ihm alle Flöh am
+Leib totschlagen.
+<b>ERSTER HANDSWERKSBURSCH.</b> Meine Seele, meine Seele stinkt
+nach Branndewein! - Selbst das Geld geht in Verwesung über!
+Vergißmeinnicht, wie ist diese Welt so schön! Bruder, ich muß ein
+Regenfaß voll greinen vor Wehmut. Ich wollt', unsre Nasen wären zwei
+Bouteillen, und wir könnten sie uns einander in den Hals gießen.
+<b>ANDRE.</b> <i>(im Chor)</i>
+        Ein Jäger aus der Pfalz
+        ritt einst durch einen grünen Wald.
+        Halli, hallo, ha lustig ist die Jägerei
+        allhier auf grüner Heid.
+        Das Jagen is mei Freud.
+<i>Woyzeck stellt sich ans Fenster. Marie und der Tambourmajor tanzen vorbei, ohne ihm zu bemerken.</i>
+<b>WOYZECK.</b> Er! Sie! Teufel!
+<b>MARIE</b> <i>(im Vorbeitanzen.)</i>Immer zu, immer zu -
+<b>WOYZECK.</b> <i>[erstickt]:</i> Immer zu - Immer zu! - <i>[Fährt heftig auf und sinkt zurück auf die Bank:]</i> Immer zu, immer zu! - <i>[Schlägt die Hände ineinander:]</i> Dreht euch. wälzt euch! Warum bläst Gott nicht die Sonn aus, daß alles in Unzucht sich übereinanderwälzt, Mann und Weib, Mensch und Vieh?! Tut's am hellen Tag, tut's einem auf den Händen wie die Mücken! - Weib! Das Weib is heiß, heiß! - Immer zu, immer zu! - <i>[Fährt auf:]</i> Der Kerl, wie er an ihr herum greift, an ihrem Leib! Er, er hat sie - wie ich zu Anfang. - <i>[Er sinkt betäubt zusammen.]</i>
+<b>ERSTER HANDSWERKSBURSCH.</b>  <i>[predigt auf dem Tisch]</i>: Jedoch, wenn ein Wandrer, der gelehnt steht an dem Strom der Zeit oder aber sich die göttliche Weisheit beantwortet und sich anredet: Warum ist der Mensch? Warum ist der Mensch? - Aber wahrlich, ich sage euch: Von was hätte der Landmann, der Weißbinder, der Schuster, der Arzt leben sollen, wenn Gott den Menschen nicht geschaffen hätte? Von was hätte der Schneider leben sollen, wenn er dem Menschen nicht die Empfindung der Scham eingepflanzt hätte, von was der Soldat, wenn er ihm nicht mit dem Bedürfnis sich totzuschlagen ausgerüstet hätte? Darum zweifelt nicht - ja, ja, es ist lieblich und fein, aber alles Irdische ist übel, selbst das Geld geht in Verwesung über. Zum Beschluß, meine geliebten Zuhörer, laßt uns noch übers Kreuz pissen, damit ein Jud stirbt!
+<i>Unter allgemeinem Gejohle erwacht Woyzech und rast davon.]</i>
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Freies Feld.</a>
+
+                <div class="sub-section" hidden>
+              <p>
+                    	<pre>
+
+	
+<b>WOYZECK.</b> Immer zu! Immer zu! Hisch, hasch! So gehn die Geigen und die Pfeifen. - Immer zu! Immer zu! - Still, Musik! Was spricht da unten? - Recht sich gegen den Boden: Ha, was, was sagt ihr? Lauterl Lauter! Stich, stich die Zickwolfin tot? - Stich, stich die Zickwolfin tot! - Soll ich! Muß ich? Hör' ich's da auch? - Sagt's der Wind auch? - Hör' ich's immer, immer zu: stich tot, tot!
+
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section block END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Nacht. Andres und Woyzech in einem Bett.</a>
+
+                <div class="sub-section" hidden>
+              <p>
+                    	<pre>
+
+<b>WOYZECK.</b><i>(schüttelt Andres.)</i> Andres! Andres! Ich kann nit schlafen! Wenn ich die Aug zumach', dreht sich's immer, und ich hör' die Geigen, immer zu, immer zu. Und dann spricht's aus der Wand. Hörst du nix?
+<b>ANDRES.</b> Ja - laß sie tanze! Einer is müd, und dann Gott behüt uns, amen.
+<b>WOYZECK.</b> Es redt lmmer: stich! stich! und zieht mir zwischen den
+Augen wie ein Messer -
+<b>ANDRES.</b> Du mußt Schnaps trinke und Pulver drin, das scheidt das Fieber. 
+
+
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Wirtshaus. Tambourmajor. Woyzeck. Leute.</a>
+
+                <div class="sub-section" hidden>
+              <p>
+                    	<pre>
+
+<b>TAMBOURMAJOR.</b> Ich bin ein Mann! - <i>[Schlägt sich auf die Brust:]</i> Ein Mann, sag' ich. Wer will was? Wer kein be- soffner Herrgott ist, der laß sich von mir. Ich will ihn die Nas ins Arschloch prügeln! Ich will - <i>[Zu Woyzeck:]</i> Du Kerl, sauf! Ich wollt' die Welt wär' Schnaps, Schnaps - der Mann muß saufen!
+<b>WOYZECK.</b> <i>pfeift</i>
+<b>TAMBOURMAJOR.</b> Kerl, soll ich dir die Zung aus dem Hals ziehn und sie um den Leib herumwickeln? - <i>Sie ringen, Woyzeck verliert.</i> - Soll ich dir noch so viel Atem lassen als 'en Altweiberfurz, soll ich? - <i>[Woyzeck setzt sich erschöpft zitternd auf eine Bank.]</i> - Der Kerl soll dunkelblau pfeifen. Branndewein, das ist mein Leben; Branndwein gibt Courage!
+<b>EINE.</b>Der hat sein Fett.
+<b>ANDRE.</b> Er blut'.
+<b>WOYZECK.</b> Eins nach dem andern.
+
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section block END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Woyzeck. Der Jude.</a>
+
+                <div class="sub-section" hidden>
+              <p>
+                    	<pre>
+	
+<b>WOYZECK.</b>Das Pistolchen ist zu teuer.
+<b>JUDE.</b> Nu, kauft's oder kauft's nit, was is?
+<b>WOYZECK.</b> Was kost' das Messer?
+<b>JUDE.</b> 's ist ganz grad. Wollt Ihr Euch den Hals mit abschneiden? Nu, was is es? Ich geb's Euch so wohlfeil wie ein andrer. Ihr sollt Euern Tod wohlfeil haben, aber doch nit umsonst. Was is es? Er soll ein ökonomischer Tod haben.
+<b>WOYZECK.</b> Das kann mehr als Brot schneiden -
+<b>JUDE.</b> Zwee Grosche.
+<b>WOYZECK.</b> Da! - <i>Geht ab.</i>
+<b>JUDE.</b> Da! Als ob's nichts wär! Und es is doch Geld. - Der Hund!
+
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Marie blättert in der Bibel.</a>
+
+                <div class="sub-section" hidden>
+              <p>
+                    	<pre>
+
+	
+<b>MARIE.</b>"Und ist kein Betrug in seinem Munde erfunden": … Herrgott, Herrgott! Sieh mich nicht an! - <i>[Blättert weiter:]</i> "Aber die Pharisäer brachten ein Weib zu ihm, im Ehebruch begriffen, und stelleten sie ins Mittel dar … Jesus aber sprach: So verdamme ich dich auch nicht. Geh hin und sündige hinfort nicht mehr!" - <i>[Schlägt die Hände zusammen:]</i> Hergott! Hergott! Ich kann nicht! - Herrgott, gib mir nur so viel, daß ich beten kann. - <i>[Das Kind drängt sich an sie.]</i> - Das Kind gibt mir einen Stich ins Herz. - 
+<b>NARR.</b><i>[liegt und erzählt sich Märchen an den Fingern]</i>: Der hat die goldne Kron, der Herr König … Morgen hol' ich der Frau Königin ihr Kind … Blutwurst sagt: komm, Leberwurst … <i>[Narr nimmt das Kind und wird still.]</i>
+<b>MARIE.</b> Der Franz ist nit gekommen, gestern nit, heut nit. Es wird heiß hier! - <i>[Sie macht das Fenster auf und liest wieder:]</i> "Und trat hinten zu seinen Füßen und weinete, und fing an, seine Füße zu netzen mit Tränen und mit den Haaren ihres Hauptes zu trocknen, und küssete seine Füße und salbete sie mit Salbe …" <i>[Schlägt sich auf die Brust:]</i> Alles tot! Heiland! Heiland! ich möchte dir die Füße salben! -
+
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section block END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Kaserne. Andres. Woyzeck kramt in seinen Sachen.</a>
+
+                <div class="sub-section" hidden>
+              <p>
+                    	<pre>
+	
+<b>WOYZECK.</b>Das Kamisolchen, Andres, ist nit zur Montur: du kannst's brauchen, Andres.
+<b>ANDRES.</b><i>[ganz starr, sagt zu allem]:</i> Jawohl.
+<b>WOYZECK.</b> Das Kreuz meiner Schwester und das Ringlein.
+<b>ANDRES.</b> Jawohl.
+<b>WOYZECK.</b> Ich hab' auch noch ein Heiligen, zwei Herze und schön Gold - es lag in meiner Mutter Bibel, und da steht: Herr, wie dein Leib war rot und wund, so laß mein Herz sein aller Stund. Mein Mutter fühlt nur noch, wenn ihr die Sonn auf die Händ scheint - das tut nix.
+<b>ANDRES.</b> Jawohl.
+<b>WOYZECK.</b> <i>[zieht ein Papier hervor]:</i> Friedrich Johann Franz Woyzeck,
+Wehrmann, Füsilier im 2. Regiment, 2. Bataillion 4. Kompanie, geboren
+Mariä Verkündigung, den 20. Juli. - Ich bin heut alt 30 Jahr, 7 Monat
+und 12 Tage.
+<b>ANDRES.</b> Franz, du kommst ins Lazarett. Armer, du mußt Schnaps trinken und Pulver drin, das töt' das Fieber.
+<b>WOYZECK.</b> Ja, Andres, wenn ein Schreiner die Hobelspäne sammelt, es weiß niemand, wer seinen Kopf drauflegen wird.
+
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section block END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Marie mit Mädchen vor der Haustür. </a>
+
+                <div class="sub-section" hidden>
+              <p>
+                    	<pre>
+	
+<b>MÄDCHEN.</b>
+        Wie scheint die Sonn am Lichtmeßtag
+        und steht das Korn im Blühn.
+        Sie gingen wohl die Wiese hin,
+        sie gingen zu zwein und zwein.
+        Die Pfeifer gingen voran,
+        die Geiger hinterdrein,
+        sie hatten rote Socken an …
+<b>ERSTES KIND.</b> Das ist nit schön.
+<b>ZWEITES KIND.</b> Was willst du auch immer!
+<b>ERSTES KIND.</b> Marie, sing du uns!
+<b>MARIE.</b> Ich kann nit.
+<b>ERSTES KIND.</b> Warum?
+<b>MARIE.</b> Darum. 
+<b>ZWEITES KIND.</b> Aber warum darum?
+<b>DRITTES KIND..</b> Großmutter, erzähl!
+<b>GROSSMUTTER.</b> Kommt, ihr kleinen Krabben! - Es war einmal ein arm Kind und hatt' kein Vater und keine Mutter, war alles tot, und war niemand mehr auf der Welt. Alles tot, und es is hingangen und hat gesucht Tag und Nacht. Und weil auf der Erde niemand mehr war, wollt's in Himmel gehn, und der Mond guckt es so freundlich an; und wie es endlich zum Mond kam, war's ein Stück faul Holz. Und da is es zur Sonn gangen, und wie es zur Sonn kam, war's ein verwelkt Sonneblum. Und wie's zu den Sternen kam, waren's kleine goldne Mücken, die waren angesteckt, wie der Neuntöter sie auf die Schlehen steckt. Und wie's wieder auf die Erde wollt, war die Erde ein umgestürzter Hafen. Und es war ganz allein. Und da hat sich's hingesetzt und geweint, und da sitzt es noch und is ganz allein.
+<b>WOYZECK.</b> Quiet, it's all quiet, like the world was dead. 
+<b>ANDRES.</b> Listen! They're drumming. We've got to get back!
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Marie und Woyzeck.</a>
+
+                <div class="sub-section" hidden>
+              <p>
+                    	<pre>
+<b>MARIE.</b>Also dort hinaus is die Stadt. 's is finster.
+<b>WOYZECK.</b>Du sollst noch bleiben. Komm, setz dich!
+<b>MARIE.</b>Aber ich muß fort.
+<b>WOYZECK.</b> Du wirst dir die Füße nit wund laufe.
+<b>MARIE.</b> Wie bist du nur auch!
+<b>WOYZECK.</b> Weißt du auch, wie lang es jetzt is, Marie?
+<b>MARIE.</b> Am Pfingsten zwei Jahr.
+<b>WOYZECK.</b>Weißt du auch, wie lang es noch sein wird?
+<b>MARIE.</b>Ich muß fort, das Nachtessen richten.
+<b>WOYZECK.</b> Friert's dich, Marie? Und doch bist du warm. Was du heiße Lippen hast! Heiß, heißen Hurenatem! Und doch möcht' ich den Himmel geben, sie noch einmal zu küssen. - Friert's dich? Wenn man kalt is, so friert man nicht mehr. Du wirst vom Morgentau nicht frieren.
+<b>MARIE.</b>Was sagst du?
+<b>WOYZECK.</b> Nix. 
+<i>Schweigen.</i>
+<b>MARIE.</b>Was der Mond rot aufgeht!
+<b>WOYZECK.</b> Wie ein blutig Eisen.
+<b>MARIE.</b> Was hast du vor, Franz, du bist so blaß. - <i>[Er holt mit dem
+Messer aus.]</i> - Franz halt ein! Um des Himmels willen, Hilfe, Hilfe!
+<b>WOYZECK.</b> <i>[sticht drauflos:] </i>Nimm das und das! Kannst du nicht sterben?
+So! So! - Ha, sie zuckt noch; noch nicht? Noch nicht? Immer noch. -
+<i>[Stößt nochmals zu.]</i> - Bist du tot! Tot! Tot! - <i>[Es kommen Leute, läuft weg.]</i>
+
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section block END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Es kommen Leute.</a>
+
+                <div class="sub-section" hidden>
+              <p>
+                    	<pre>
+
+	
+<b>1. PERSON.</b>Halt! 
+<b>2. PERSON.</b>Hörst du? Still! Dort! 
+<b>1. PERSON.</b>Uu! Da! Was ein Ton!
+<b>2. PERSON.</b>Es ist das Wasser, es ruft: Schon lang ist niemand ertrunken.
+Fort! Es ist nicht gut, es zu hören!
+<b>1. PERSON.</b>Uu! Jetzt wieder! - Wie ein Mensch, der stirbt!
+<b>2. PERSON.</b>Es ist unheimlich! So dunstig, allenthalben Nebelgrau - 
+und das Summen der Käfer wie gesprungne Glocken. Fort!
+<b>1. PERSON.</b>Nein. zu deutlich, zu laut! Da hinauf! Komm mit!
+
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Das Wirtshaus.</a>
+
+                <div class="sub-section" hidden>
+              <p>
+                    	<pre>
+<b>WOYZECK.</b>Tanzt alle, immer zu! Schwitzt und stinkt! Er holt euch doch
+einmal alle! - <i>[Singt:]</i>
+        Ach. Tochter, lieb Tochter
+        was hast du gedenkt,
+        daß du dich an die Landkutscher
+        und die Fuhrleut haßt gehenkt.
+<i>[Er tanzt:]</i>So, Käthe, setz dich! Ich hab' heiß! heiß - <i>[Er zieht den
+Rock aus.]</i> - Es ist einmal so, der Teufel holt die eine und läßt die
+andre laufen. Käthe, du bist heiß! Warum denn? Käthe, du wirst auch
+ noch kalt werden. Sei vernünftig. - Kannst du nicht singen?
+<b>KÄTHE.</b>(<i>singt.</i>)
+        Ins Schwabenland, das mag ich nicht,
+        und lange Kleider trag' ich nicht,
+        denn lange Kleider, spitze Schuh,
+        die kommen keiner Dienstmagd zu.
+<b>WOYZECK.</b> Nein, keine Schuh, man kann auch ohne Schuh in die Höll gehn.
+<b>KÄTHE.</b>(<i>singt.</i>)
+        O pfui mein Schatz, das war nicht fein,
+        behalt dein Taler und schlaf allein.
+<b>WOYZECK.</b> Ja, wahrhaftig, ich möcte mich nicht blutig machen.
+<b>KÄTHE.</b> Aber was hast du an deiner Hand?
+<b>WOYZECK.</b> Ich? Ich?
+<b>KÄTHE.</b> Rot! Blut!
+<i>[Es stellen sich Leute um sie.]</i>
+<b>WOYZECK.</b> Blut? Blut?
+<b>WIRT.</b>Uu - Blut!
+<b>WOYZECK.</b> Ich glaub', ich hab' mich geschnitten, da an der rechten
+Hand.
+<b>WIRT.</b> Wie kommt's aber an den Ellenbogen?
+<b>WOYZECK.</b> Ich hab's abgewischt.
+<b>WIRT.</b> Was, mit der rechten Hand an den rechten Ellenbogen Ihr seid geschickt!
+<b>NARR.</b> Und da hat der Ries gesagt: Ich riech', ich riech'
+Menschenfleisch. Puh, das stinkt schon!
+<b>WOYZECK.</b> Teufel, was wollt ihr? Was geht's euch an? Platz, oder der erste - Teufel! Meint ihr, ich hätt' jemand umgebracht? Bin ich ein Mörder? Was gafft ihr? Guckt euch selbst an! Platz da! - <i>[Er läuft hinaus.]</i>
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section block END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">KINDER.</a>
+
+                <div class="sub-section" hidden>
+              <p>
+                    	<pre>
+
+<b>1. Kind.</b>Fort. Marie...
+<b>2. Kind.</b>Was is. 
+<b>1. Kind..</b> Weißt du's nit? Sie sind schon alle hinaus. Drauß liegt eine!
+<b>2. Kind.</b> Wo?
+<b>1. Kind..</b> Links über die Lochschanz...am roten Kreuz. 
+<b>2. Kind.</b> Kommt, daß wir noch was sehen. Sie trage sie sonst hinein. 
+
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Woyzeck, allein.</a>
+
+                <div class="sub-section" hidden>
+              <p>
+                    	<pre>
+<b>WOYZECK.</b><i>[allein]:</i> Das Messer? Wo ist das Messer? Ich hab' es da gelassen. Es verrät mich! Näher, noch näher! Was is das für ein Platz? Was hör' ich? Es rührt sich was. Still. - Da in der Nähe. Marie? Ha, Marie! Still. Alles still! Was bist du so bleich, Marie? Was hast du eine rote Schnur um den Hals? Bei wem hast du das Halsband verdient mit deinen Sünden? Du warst schwarz davon, schwarz! Hab' ich dich gebleicht? Was hängen deine Haare so wild? Hast du deine Zöpfe heute nicht geflochten? … - Das Messer, das Messer! Hab' ich's? So! Leute--dort <i>[Er läuft weg.]</i> 
+
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section block END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Woyzeck am Teich.</a>
+
+                <div class="sub-section" hidden>
+              <p>
+                    	<pre>
+
+	
+<b>WOYZECK.</b>So, da hinunter! - <i>[Er wirft das Messer hinein.]</i> - Es taucht in das dunkle Wasser wie ein Stein. - Nein, es liegt zu weit vorn, wenn sie sich baden. - <i>[Er geht in den Teich und wirft weit.]</i> - So, jetzt - aber im Sommer, wenn sie tauchen nach Muscheln? - Bah, es wird rostig, wer kann's erkennen. - Hätt' ich es zerbrochen! - - Bin ich noch blutig? Ich muß mich waschen. Da ein Fleck, und da noch einer …
+
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section block END -->
+            <li>
+                <!-- section start --> <a href="#!" class="section-title">Gerichtsdiener. Barbier. Arzt. Richter.</a>
+
+                <div class="sub-section" hidden>
+              <p>
+                    	<pre>
+
+	
+<b>[GERICHTSDIENER.]</b> Ein guter Mord, ein echter Mord, ein schön Mord, so schön als man ihn nur verlangen tun kann, wir haben schon lange so kein gehabt. 
+
+                        </pre>
+                    </p>
+                </div>
+            </li>
+            <!-- section block END -->
+        </ul>
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script>
+            $("#sortable").sortable().disableSelection();
+
+            $('.section-title').click(function() {
+                $('.sub-section').slideUp();
+                if ($(this).next().is(':visible')) $(this).next().slideUp();
+                else $(this).next().slideDown();
+            });
+        </script>
+    </body>
+
+</html>
